@@ -91,12 +91,12 @@ function checkCollisions() {
         if (p_x == e_x && p_y == e_y) {
             alert("很遗憾，您没有成功躲避！");
             player.x = 200;
-            player.y = 0;
+            player.y = 490;
         }
         if (p_y == 0) {
             alert("恭喜！您赢了瓢虫！");
             player.x = 200;
-            player.y = 0;
+            player.y = 490;
         }
     }
 };
